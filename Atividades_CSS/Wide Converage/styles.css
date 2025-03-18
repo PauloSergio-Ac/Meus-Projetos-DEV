@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  margin-top: 47px;
+  margin-left: 42px;
+}
+
+.menu {
+  color: #17233d;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.875px;
+  margin-right: 32px;
+}
+
+.button-sign-up {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  width: 124px;
+  height: 51px;
+  border-radius: 6px;
+  border: 1px solid #4cb538;
+  background: #6fbf44;
+  cursor: pointer;
+}
+
+img {
+  margin: 163px 0 0 121px;
+  display: inline-block;
+}
+
+div {
+  display: inline-block;
+  margin-left: 83px;
+}
+
+h1 {
+  color: #161a49;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82px;
+  letter-spacing: 0.596px;
+  width: 582px;
+}
+
+p {
+  color: #4b505a;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  width: 493px;
+  margin-top: 47px;
+}
+
+.button-learn-more {
+  color: #6fbf44;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-top: 55px;
+}
+
+@media (max-width: 390px) {
+  .body {
+    margin: 0;
+    padding: 0;
+    display: flex 0;
+  }
+  .menu {
+    display: none;
+  }
+  .button-sign-up {
+  }
+  img {
+    width: 100%;
+    margin: 80px 110px;
+    align-items: center;
+  }
+  h1 {
+    color: #161a49;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 100% */
+    letter-spacing: 0.596px;
+    width: 278px;
+    margin-left: 150px;
+  }
+  .box-box3 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  p {
+    margin: 30px 0 30px 100px;
+    text-align: center;
+    width: 95%;
+  }
+}
